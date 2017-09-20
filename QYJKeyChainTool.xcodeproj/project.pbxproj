@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE694A1C1F710DC200C3F466 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE694A1B1F710DC200C3F466 /* main.m */; };
+		DE694A1F1F710DC200C3F466 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE694A1E1F710DC200C3F466 /* AppDelegate.m */; };
+		DE694A221F710DC200C3F466 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE694A211F710DC200C3F466 /* ViewController.m */; };
+		DE694A251F710DC200C3F466 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE694A231F710DC200C3F466 /* Main.storyboard */; };
+		DE694A271F710DC200C3F466 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE694A261F710DC200C3F466 /* Assets.xcassets */; };
+		DE694A2A1F710DC200C3F466 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE694A281F710DC200C3F466 /* LaunchScreen.storyboard */; };
+		DE694A351F710DC200C3F466 /* QYJKeyChainToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE694A341F710DC200C3F466 /* QYJKeyChainToolTests.m */; };
+		DE694A401F710DC200C3F466 /* QYJKeyChainToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE694A3F1F710DC200C3F466 /* QYJKeyChainToolUITests.m */; };
+		DE694A601F7111F600C3F466 /* EncryptionTools.m in Sources */ = {isa = PBXBuildFile; fileRef = DE694A5A1F7111F600C3F466 /* EncryptionTools.m */; };
+		DE694A651F71122F00C3F466 /* QYJFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE694A641F71122F00C3F466 /* QYJFileManager.m */; };
+		DE694A671F711D8D00C3F466 /* widget in Resources */ = {isa = PBXBuildFile; fileRef = DE694A661F711D8D00C3F466 /* widget */; };
+		F0FF90E7467A4F1A26A9F971 /* libPods-QYJKeyChainTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 768CC7F5363B771F71D5673A /* libPods-QYJKeyChainTool.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE694A311F710DC200C3F466 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE694A0F1F710DC200C3F466 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE694A161F710DC200C3F466;
+			remoteInfo = QYJKeyChainTool;
+		};
+		DE694A3C1F710DC200C3F466 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE694A0F1F710DC200C3F466 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE694A161F710DC200C3F466;
+			remoteInfo = QYJKeyChainTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A9D1B67C05663736EB4518C /* Pods-QYJKeyChainTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYJKeyChainTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-QYJKeyChainTool/Pods-QYJKeyChainTool.release.xcconfig"; sourceTree = "<group>"; };
+		2A80440FAF7367AF083B921C /* Pods-QYJKeyChainTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYJKeyChainTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QYJKeyChainTool/Pods-QYJKeyChainTool.debug.xcconfig"; sourceTree = "<group>"; };
+		768CC7F5363B771F71D5673A /* libPods-QYJKeyChainTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QYJKeyChainTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE694A171F710DC200C3F466 /* QYJKeyChainTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYJKeyChainTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE694A1B1F710DC200C3F466 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE694A1D1F710DC200C3F466 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE694A1E1F710DC200C3F466 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE694A201F710DC200C3F466 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE694A211F710DC200C3F466 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE694A241F710DC200C3F466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE694A261F710DC200C3F466 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE694A291F710DC200C3F466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE694A2B1F710DC200C3F466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE694A301F710DC200C3F466 /* QYJKeyChainToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QYJKeyChainToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE694A341F710DC200C3F466 /* QYJKeyChainToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYJKeyChainToolTests.m; sourceTree = "<group>"; };
+		DE694A361F710DC200C3F466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE694A3B1F710DC200C3F466 /* QYJKeyChainToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QYJKeyChainToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE694A3F1F710DC200C3F466 /* QYJKeyChainToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYJKeyChainToolUITests.m; sourceTree = "<group>"; };
+		DE694A411F710DC200C3F466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE694A591F7111F600C3F466 /* EncryptionTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionTools.h; sourceTree = "<group>"; };
+		DE694A5A1F7111F600C3F466 /* EncryptionTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptionTools.m; sourceTree = "<group>"; };
+		DE694A631F71122F00C3F466 /* QYJFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYJFileManager.h; sourceTree = "<group>"; };
+		DE694A641F71122F00C3F466 /* QYJFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYJFileManager.m; sourceTree = "<group>"; };
+		DE694A661F711D8D00C3F466 /* widget */ = {isa = PBXFileReference; lastKnownFileType = folder; path = widget; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE694A141F710DC200C3F466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0FF90E7467A4F1A26A9F971 /* libPods-QYJKeyChainTool.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE694A2D1F710DC200C3F466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE694A381F710DC200C3F466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4870F9C3046E33C29DFA2CCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A80440FAF7367AF083B921C /* Pods-QYJKeyChainTool.debug.xcconfig */,
+				1A9D1B67C05663736EB4518C /* Pods-QYJKeyChainTool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE694A0E1F710DC200C3F466 = {
+			isa = PBXGroup;
+			children = (
+				DE694A191F710DC200C3F466 /* QYJKeyChainTool */,
+				DE694A331F710DC200C3F466 /* QYJKeyChainToolTests */,
+				DE694A3E1F710DC200C3F466 /* QYJKeyChainToolUITests */,
+				DE694A181F710DC200C3F466 /* Products */,
+				4870F9C3046E33C29DFA2CCC /* Pods */,
+				F2EB9FDA9BB063A8F8C57011 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE694A181F710DC200C3F466 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE694A171F710DC200C3F466 /* QYJKeyChainTool.app */,
+				DE694A301F710DC200C3F466 /* QYJKeyChainToolTests.xctest */,
+				DE694A3B1F710DC200C3F466 /* QYJKeyChainToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE694A191F710DC200C3F466 /* QYJKeyChainTool */ = {
+			isa = PBXGroup;
+			children = (
+				DE694A661F711D8D00C3F466 /* widget */,
+				DE694A581F7111F600C3F466 /* Cipher */,
+				DE694A631F71122F00C3F466 /* QYJFileManager.h */,
+				DE694A641F71122F00C3F466 /* QYJFileManager.m */,
+				DE694A1D1F710DC200C3F466 /* AppDelegate.h */,
+				DE694A1E1F710DC200C3F466 /* AppDelegate.m */,
+				DE694A201F710DC200C3F466 /* ViewController.h */,
+				DE694A211F710DC200C3F466 /* ViewController.m */,
+				DE694A231F710DC200C3F466 /* Main.storyboard */,
+				DE694A261F710DC200C3F466 /* Assets.xcassets */,
+				DE694A281F710DC200C3F466 /* LaunchScreen.storyboard */,
+				DE694A2B1F710DC200C3F466 /* Info.plist */,
+				DE694A1A1F710DC200C3F466 /* Supporting Files */,
+			);
+			path = QYJKeyChainTool;
+			sourceTree = "<group>";
+		};
+		DE694A1A1F710DC200C3F466 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE694A1B1F710DC200C3F466 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE694A331F710DC200C3F466 /* QYJKeyChainToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE694A341F710DC200C3F466 /* QYJKeyChainToolTests.m */,
+				DE694A361F710DC200C3F466 /* Info.plist */,
+			);
+			path = QYJKeyChainToolTests;
+			sourceTree = "<group>";
+		};
+		DE694A3E1F710DC200C3F466 /* QYJKeyChainToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE694A3F1F710DC200C3F466 /* QYJKeyChainToolUITests.m */,
+				DE694A411F710DC200C3F466 /* Info.plist */,
+			);
+			path = QYJKeyChainToolUITests;
+			sourceTree = "<group>";
+		};
+		DE694A581F7111F600C3F466 /* Cipher */ = {
+			isa = PBXGroup;
+			children = (
+				DE694A591F7111F600C3F466 /* EncryptionTools.h */,
+				DE694A5A1F7111F600C3F466 /* EncryptionTools.m */,
+			);
+			path = Cipher;
+			sourceTree = "<group>";
+		};
+		F2EB9FDA9BB063A8F8C57011 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				768CC7F5363B771F71D5673A /* libPods-QYJKeyChainTool.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE694A161F710DC200C3F466 /* QYJKeyChainTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE694A441F710DC200C3F466 /* Build configuration list for PBXNativeTarget "QYJKeyChainTool" */;
+			buildPhases = (
+				76A7B8630A57234FE6423E9D /* [CP] Check Pods Manifest.lock */,
+				DE694A131F710DC200C3F466 /* Sources */,
+				DE694A141F710DC200C3F466 /* Frameworks */,
+				DE694A151F710DC200C3F466 /* Resources */,
+				AD35CFD2E561CD5FF558541F /* [CP] Embed Pods Frameworks */,
+				E497D7A79E790FBC825EAE92 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QYJKeyChainTool;
+			productName = QYJKeyChainTool;
+			productReference = DE694A171F710DC200C3F466 /* QYJKeyChainTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE694A2F1F710DC200C3F466 /* QYJKeyChainToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE694A471F710DC200C3F466 /* Build configuration list for PBXNativeTarget "QYJKeyChainToolTests" */;
+			buildPhases = (
+				DE694A2C1F710DC200C3F466 /* Sources */,
+				DE694A2D1F710DC200C3F466 /* Frameworks */,
+				DE694A2E1F710DC200C3F466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE694A321F710DC200C3F466 /* PBXTargetDependency */,
+			);
+			name = QYJKeyChainToolTests;
+			productName = QYJKeyChainToolTests;
+			productReference = DE694A301F710DC200C3F466 /* QYJKeyChainToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE694A3A1F710DC200C3F466 /* QYJKeyChainToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE694A4A1F710DC200C3F466 /* Build configuration list for PBXNativeTarget "QYJKeyChainToolUITests" */;
+			buildPhases = (
+				DE694A371F710DC200C3F466 /* Sources */,
+				DE694A381F710DC200C3F466 /* Frameworks */,
+				DE694A391F710DC200C3F466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE694A3D1F710DC200C3F466 /* PBXTargetDependency */,
+			);
+			name = QYJKeyChainToolUITests;
+			productName = QYJKeyChainToolUITests;
+			productReference = DE694A3B1F710DC200C3F466 /* QYJKeyChainToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE694A0F1F710DC200C3F466 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = kjduobao.com;
+				TargetAttributes = {
+					DE694A161F710DC200C3F466 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 6X982SUDPL;
+						ProvisioningStyle = Automatic;
+					};
+					DE694A2F1F710DC200C3F466 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 6X982SUDPL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE694A161F710DC200C3F466;
+					};
+					DE694A3A1F710DC200C3F466 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 6X982SUDPL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE694A161F710DC200C3F466;
+					};
+				};
+			};
+			buildConfigurationList = DE694A121F710DC200C3F466 /* Build configuration list for PBXProject "QYJKeyChainTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE694A0E1F710DC200C3F466;
+			productRefGroup = DE694A181F710DC200C3F466 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE694A161F710DC200C3F466 /* QYJKeyChainTool */,
+				DE694A2F1F710DC200C3F466 /* QYJKeyChainToolTests */,
+				DE694A3A1F710DC200C3F466 /* QYJKeyChainToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE694A151F710DC200C3F466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE694A2A1F710DC200C3F466 /* LaunchScreen.storyboard in Resources */,
+				DE694A271F710DC200C3F466 /* Assets.xcassets in Resources */,
+				DE694A671F711D8D00C3F466 /* widget in Resources */,
+				DE694A251F710DC200C3F466 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE694A2E1F710DC200C3F466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE694A391F710DC200C3F466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76A7B8630A57234FE6423E9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD35CFD2E561CD5FF558541F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QYJKeyChainTool/Pods-QYJKeyChainTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E497D7A79E790FBC825EAE92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QYJKeyChainTool/Pods-QYJKeyChainTool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE694A131F710DC200C3F466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE694A651F71122F00C3F466 /* QYJFileManager.m in Sources */,
+				DE694A601F7111F600C3F466 /* EncryptionTools.m in Sources */,
+				DE694A221F710DC200C3F466 /* ViewController.m in Sources */,
+				DE694A1F1F710DC200C3F466 /* AppDelegate.m in Sources */,
+				DE694A1C1F710DC200C3F466 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE694A2C1F710DC200C3F466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE694A351F710DC200C3F466 /* QYJKeyChainToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE694A371F710DC200C3F466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE694A401F710DC200C3F466 /* QYJKeyChainToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE694A321F710DC200C3F466 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE694A161F710DC200C3F466 /* QYJKeyChainTool */;
+			targetProxy = DE694A311F710DC200C3F466 /* PBXContainerItemProxy */;
+		};
+		DE694A3D1F710DC200C3F466 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE694A161F710DC200C3F466 /* QYJKeyChainTool */;
+			targetProxy = DE694A3C1F710DC200C3F466 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE694A231F710DC200C3F466 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE694A241F710DC200C3F466 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE694A281F710DC200C3F466 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE694A291F710DC200C3F466 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE694A421F710DC200C3F466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE694A431F710DC200C3F466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE694A451F710DC200C3F466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A80440FAF7367AF083B921C /* Pods-QYJKeyChainTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6X982SUDPL;
+				INFOPLIST_FILE = QYJKeyChainTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kjtest.QYJKeyChainTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE694A461F710DC200C3F466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A9D1B67C05663736EB4518C /* Pods-QYJKeyChainTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6X982SUDPL;
+				INFOPLIST_FILE = QYJKeyChainTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kjtest.QYJKeyChainTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE694A481F710DC200C3F466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6X982SUDPL;
+				INFOPLIST_FILE = QYJKeyChainToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kjtest.QYJKeyChainToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QYJKeyChainTool.app/QYJKeyChainTool";
+			};
+			name = Debug;
+		};
+		DE694A491F710DC200C3F466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6X982SUDPL;
+				INFOPLIST_FILE = QYJKeyChainToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kjtest.QYJKeyChainToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QYJKeyChainTool.app/QYJKeyChainTool";
+			};
+			name = Release;
+		};
+		DE694A4B1F710DC200C3F466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6X982SUDPL;
+				INFOPLIST_FILE = QYJKeyChainToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kjtest.QYJKeyChainToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QYJKeyChainTool;
+			};
+			name = Debug;
+		};
+		DE694A4C1F710DC200C3F466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6X982SUDPL;
+				INFOPLIST_FILE = QYJKeyChainToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kjtest.QYJKeyChainToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QYJKeyChainTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE694A121F710DC200C3F466 /* Build configuration list for PBXProject "QYJKeyChainTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE694A421F710DC200C3F466 /* Debug */,
+				DE694A431F710DC200C3F466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE694A441F710DC200C3F466 /* Build configuration list for PBXNativeTarget "QYJKeyChainTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE694A451F710DC200C3F466 /* Debug */,
+				DE694A461F710DC200C3F466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE694A471F710DC200C3F466 /* Build configuration list for PBXNativeTarget "QYJKeyChainToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE694A481F710DC200C3F466 /* Debug */,
+				DE694A491F710DC200C3F466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE694A4A1F710DC200C3F466 /* Build configuration list for PBXNativeTarget "QYJKeyChainToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE694A4B1F710DC200C3F466 /* Debug */,
+				DE694A4C1F710DC200C3F466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE694A0F1F710DC200C3F466 /* Project object */;
+}
